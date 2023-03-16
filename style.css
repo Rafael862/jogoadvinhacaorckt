@@ -10,6 +10,7 @@
 body {
     background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
     font-size: 1.6rem;
+
     display: grid;
     place-items: center;
     height: 100vh;
@@ -38,13 +39,13 @@ button:hover {
 
 main {
     background: #fff;
-    padding: 48px;
-    border-radius: .6rem;
     box-shadow: 0px .2rem .4rem rgba(0,0,0,0.1);
+    border-radius: .6rem;
     padding: 4.8rem 6.4rem 6.4rem;
 
     width: min(42.8rem, 90%);
     margin-top: -12rem;
+    text-align: center;
 }
 
 h1 {
@@ -84,7 +85,7 @@ input {
 
 h2 {
     font-size: 2.4rem;
-    font-weight: 400;
+    font-weight: normal;
     margin-bottom: 3.3rem;
 }
 
